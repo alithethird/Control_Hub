@@ -6,7 +6,7 @@
 Welcome to Control_Hub's documentation!
 =======================================
 
-.. include:: control_hub.rst
+include:: control_hub.rst
 
 Indices and tables
 ==================
