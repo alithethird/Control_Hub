@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "ui_client = control_hub.ui_client:main"
+            "control_hub = control_hub.control_hub:main"
             ],
     },
 )

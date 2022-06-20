@@ -1,12 +1,17 @@
-.. Control_Hub documentation master file, created by
-   sphinx-quickstart on Mon Jun 20 14:18:41 2022.
+.. control_hub documentation master file, created by
+   sphinx-quickstart on Mon Jun 20 15:11:06 2022.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Control_Hub's documentation!
+Welcome to control_hub's documentation!
 =======================================
 
-. include:: control_hub.rst
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   control_hub.rst
+
 
 Indices and tables
 ==================
