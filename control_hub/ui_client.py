@@ -35,7 +35,8 @@ class ClientNode(Node):
         self._get_result_future = 0
 
     def callback_button_state(self, request, response):
-        """ This callback function runs when a button read request comes from UI """
+        """ This callback function runs when a button read request comes from UI 
+        :param request: request coming from UI to read button state"""
         if not self._action_client.wait_for_server(timeout_sec=1):
             self.get_logger().error('No action server availible!!!')
             return response
