@@ -6,11 +6,7 @@
 Welcome to Control_Hub's documentation!
 =======================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-   modules
+.. include:: control_hub.rst
 
 Indices and tables
 ==================
